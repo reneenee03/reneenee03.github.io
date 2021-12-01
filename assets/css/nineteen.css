@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	background: #FFF8E7;
+	font-family: 'Special Elite', cursive;
+}
+
+
+#container1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+
+#container2 {
+    width: 50vw;
+    height: 100vh;
+}
+
+#container3 {
+    width: 35vw;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.img1989 {
+    margin-top: 130px;
+    margin-left: 80px;
+    height: 500px;
+    width: 500px;
+    filter: drop-shadow(10px 10px 10px black);
+    animation: bounce 0.60s ease-in infinite alternate;
+}
+
+.list {
+    margin-top: 5px;
+    margin-left: 140px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.list:hover {
+	color: #003d80;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateX(-70px);
+    } to {
+        transform: translateX(20px);
+    }
+}
+
+

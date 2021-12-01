@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	background: #ffffff;
+	font-family: 'Special Elite', cursive;
+}
+
+#container1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.img1989 {
+    height: 500px;
+    width: 500px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.redimg {
+    height: 500px;
+    width: 500px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link1989 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.redlink {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#container3 {
+    margin-top: 80px;
+    margin-left: 225px;
+    line-height: 35px;
+    width: 70vw;
+    height: 15vh;
+    text-align: center;
+}
